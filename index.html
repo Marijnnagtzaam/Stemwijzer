@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stemwijzer</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="w3-display-topmiddle w3-col l10 w3-white space-top-bottom">
+            <button data-answer="prev" id="prev-button"></button>
+            <img class="logo-stemwijzer" src="assets/img/logo-stemwijzer.svg" alt="">
+            <h2 class="sub-header">StemWijzer Tweede Kamer 2017</h2>
+            <div id="hide-onclick">
+                <h2 class="second-sub-header">Test uw politieke voorkeur aan de hand van 30 stellingen</h2>
+                <button id="start-button">Start</button>
+            </div>
+            <div id="options">
+                <h1 id="title"></h1>
+                <h4 id="question-description"></h4>
+                <button class="answer-buttons" data-answer="pro" id="eens">Eens</button>
+                <button class="answer-buttons" data-answer="ambivalent" id="none">Geen van beide</button>
+                <button class="answer-buttons" data-answer="contra" id="oneens">Oneens</button>
+                <button class="answer-buttons" data-answer="skip" id="skip">Sla deze vraag over</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
