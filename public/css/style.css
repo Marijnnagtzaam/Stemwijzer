@@ -1,0 +1,23 @@
+#result {
+    display: none;
+}
+#statements {
+    background-color: #ffffff;
+    display: none;
+}
+
+#statementValue {
+    display: none;
+}
+
+#backButton {
+	padding: 10px;
+}
+
+#flex {
+    display: flex;
+}
+
+#filter {
+    margin-left: 20px;
+}
